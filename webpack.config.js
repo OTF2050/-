@@ -18,7 +18,7 @@ module.exports = {
 			directory: path.join(__dirname, "/dist")
 		  },
 	
-		port: 8000,
+		port: 9000,
 	
 		devMiddleware: {
 			writeToDisk: true,
@@ -111,29 +111,29 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			filename: "index.html",
-			template: "./src/index.html",
-		}),
-		new HtmlWebpackPlugin({
-			filename: "product.html",
-			template: "./src/product.html",
+			template: "./src/HTML/index.html",
 		}),
 		new HtmlWebpackPlugin({
 			filename: "search.html",
-			template: "./src/search.html",
-		}),
-		new HtmlWebpackPlugin({
-			filename: "checkout.html",
-			template: "./src/checkout.html",
-		}),
-		new HtmlWebpackPlugin({
-			filename: "payment.html",
-			template: "./src/payment.html",
+			template: "./src/HTML/search.html",
 		}),
 		new HtmlWebpackPlugin({
 			filename: "contact.html",
-			template: "./src/contact.html",
+			template: "./src/HTML/contact.html",
 		}),
-		new MiniCssExtractPlugin({ filename: "css/style.css" }),
+		new HtmlWebpackPlugin({
+			filename: "activety.html",
+			template: "./src/HTML/activety.html",
+		}),
+		new HtmlWebpackPlugin({
+			filename: "about-us.html",
+			template: "./src/HTML/about-us.html",
+		}),
+		new HtmlWebpackPlugin({
+			filename: "school_star.html",
+			template: "./src/HTML/school_star.html",
+		}),
+		new MiniCssExtractPlugin({ filename: "style.css" }),
 		new OptimizeCssAssetsPlugin({}),
 	]
 
