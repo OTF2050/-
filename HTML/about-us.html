@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع مدرسة علمني الابتدائيه">
+    <link rel="icon" type="img/png" href="./IMG/علمني (3).png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="icon" type="img/png" href="../IMG/علمني (4).png">
+    <link rel="stylesheet" href="../style.css">
+    <title>الطلاب المتفوقين/علمني</title>
+</head>
+<body>
+        <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar">
+          <i  class="fa-solid fa-bars fa-2x" id="toggler"></i>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../IMG/علمني (3).png" alt="" width="120px" height="120px">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </a>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" >الصفحه الرئيسه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./school_star.html">نجوم المدرسه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">رؤيتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./activety.html">نشاطاتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">تواصل معنا</a>
+                        </li>
+                    </ul>
+                    <form class="search-icon">
+                      <i onclick="myFunction()" class="fa-solid fa-magnifying-glass ml-4 mr-4"></i></button> 
+                        <button class="btn  my-sm-0 btn-sign-in " type="button" data-toggle="modal" data-target="#exampleModal">تسجيل الدخول</button>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0 ml-2" id="icon">
+                        <input  class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                        <a href="../HTML/search.html" class="btn  my-2 my-sm-0 search-bar" type="submit" >Search</a>
+                      </form>
+                    <i onclick=" backFunction()" class="fa-solid fa-moon fa-2x ml-4"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                </div>
+        </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">تسجيل دخول مستخدم</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email :</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label">Password:</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword-1">
+                </div>
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer justify-content-center">
+            <button type="button" class="btn text-dark sign-in-text" data-toggle="modal" data-target="#exampleModal-2">انشاء حساب</button>
+          <button type="button" class="btn btn-secondary btn-custom-2" data-dismiss="modal">اغلاق</button>
+          <button type="button" class="btn  btn-custom">تسجيل الدخول</button>
+          <button type="button" class="btn text-dark sign-in-text">نسيت كلمت المرور</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">انشاء حساب جديد</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="row">
+              <div class="form-group col-6">
+                <label for="inputEmail-4" class="col-sm-2 col-form-label">First-Name:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail-4">
+                </div>
+              </div>
+              <div class="form-group col-6">
+                <label for="inputEmail-4" class="col-sm-2 col-form-label">Last-Name:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail-4">
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email :</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label">Password:</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword-1">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label d-flex">Password conform:</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword-1">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label "> DATE OF BIRTH:</label>
+                <div class="col-sm-10">
+                  <input type="date" id="DateFunction" class="col-12 mt-4" value="2023-3-16">
+                </div>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="col-6">
+                <label for="country">Select a country:</label>
+<select id="country" name="country">
+  <option value="">--Please choose an option--</option>
+  <option value="EGY">EGYPT</option>
+  <option value="KSA">Canada</option>
+  <option value="UAE">Mexico</option>
+</select>
+</div>
+<div class="col-6">
+<label for="city">Select a city:</label>
+<select id="city" name="city" disabled>
+  <option value="">--Please choose a country first--</option>
+</select>
+</div>
+</div>
+          </form>
+          <div class="row mt-4">
+            <button class="text-center m-auto btn-custom">انشاء حساب</button>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-secondary btn-custom-2" data-dismiss="modal">اغلاق</button>
+          <button type="button" class="btn  btn-custom">تسجيل الدخول</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<!-- Modal -->
+<div class="modal fade" id="profile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="profile-card">
+                <img src="../IMG/1 (1).png" alt="Profile Picture" class="profile-pic mx-auto d-block mt-4" width="200px" height="200px">
+                <h1 class="text-center profile-name">John Doe</h1>
+                <h2 class="text-center profile-title">Web Developer</h2>
+                <div class="profile-details">
+                  <p><strong>Email:</strong>omar.shan2050@gmail.com</p>
+                  <p><strong>Phone:</strong>(+971)0508359480</p>
+                  <p><strong>Location:</strong> abudhabi</p>
+                  <p><strong>info:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed sapien vel tellus volutpat faucibus a at lacus. Vestibulum porta nulla vel quam faucibus, eu aliquet felis dapibus. Etiam blandit, metus vel finibus suscipit, magna velit feugiat sapien, vel eleifend enim ipsum vitae massa.</p>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-edit-profile">Edit Profile</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="row">
+      <div class="wrap" id="wrap">
+        <div class="sidebar mb-4">
+            <ul class="list-group list-group-flush pl-0 mb-4"> 
+
+
+                <a href="index.html" class="list-group-item">  
+                  <i class="fas fa-fire-alt mr-2 purple"></i> الصفحه الرئيسه 
+                
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-home mr-2 purple"></i> نجوم المدرسة 
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-home mr-2 purple"></i> البحث 
+                </a>
+               
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-share mr-2 purple"></i> نشاطاتنا  
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-film mr-2 purple"></i>  رؤيتنا
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-gamepad mr-2 purple"></i> البحث 
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fas fa-tshirt mr-2 purple"></i>  تسجيل الدخول
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-graduation-cap mr-2 purple"></i>  تغير السطوع
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-cogs mr-2 purple"></i>تحويل اللغة إلى الإنجليزية
+                </a>
+            </ul>
+        </div>
+      </div>
+  </div>
+</header>
+
+
+<section class="about-us">
+    <div class="col-12">
+ <div class="about-us-img col-12 text-center">
+    <img src="../IMG/علمني (4).png" class="rounded-circle" alt="" width="480px" height="480px">
+    <div class="about-us-heading col-12">
+      <h1><span>مدرسة علمني</span> للتعليم الابتكاري </h1>
+    <h3>تعليم باحدث <span>لاكتساب لمهارات</span> <span>الطرق الابتكاريه </span> اونلاين وخارجي عن التعليم الاكاديمي  </h3>
+    </div>
+    <div class="about-us-p  mt-4">
+      <p> <span>سيساعدك فريقنا</span>في أي مكان وفي أي وقت .  <span>في اي مكان وفي اي وقت</span> لمؤهل وذوي الخبرة على تحقيق أهدافك والنجاح في تعليمك.
+        <br>
+      سواء كنت ترغب في إكمال دبلوم المدرسة الثانوية أو الاستعداد للكلية أو تطوير مهارات جديدة لحياتك المهنية ، فإن لدى Educate Me Innovative Online School برنامجًا يناسبك. نحن نقدم مجموعة واسعة من الدورات في مجالات مثل الرياضيات والعلوم واللغة الإنجليزية والدراسات الاجتماعية والمزيد.
+      <br>
+      توفر مدرستنا عبر الإنترنت أيضًا مجتمعًا داعمًا من المتعلمين ، حيث يمكنك التواصل مع زملائك الطلاب والحصول على دعم وتعليقات مخصصة من معلميك.
+      <br>
+      في مدرسة Educate Me Innovative Online School ، نعتقد أن التعليم يجب أن يكون متاحًا ومتاحًا للجميع. لهذا السبب نقدم أسعارًا تنافسية وخيارات دفع مرنة ، حتى تتمكن من الحصول على التعليم الذي تحتاجه دون تفريغ محفظتك.
+      <br>
+      لا تنتظر أكثر من ذلك لاتخاذ الخطوة التالية في تعليمك. انضم إلى مدرسة Educate Me Innovative Online School اليوم واكتشف الاحتمالات
+    </p>
+  </div>
+ </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+      <div class="col-12">
+    <div class="footer-heading text-center mt-4">
+      <h1>حسابتنا علي التواصل الاجتماعي</h1>
+      <hr class="headig-break">
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <div class="google-icon oringe">
+        <i class="fa-brands fa-google fa-4x"></i>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="google-pay-icon oringe">
+        <i class="fa-brands fa-instagram fa-4x"></i>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="facebook-icon oringe">
+        <i class="fa-brands fa-facebook fa-4x"></i>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="twitter-icon oringe">
+        <i class="fa-brands fa-twitter fa-4x"></i>
+      </div>
+  </div>
+  </div>
+  <div class="col-12">
+    <div class="footer-heading text-center mt-4">
+      <h1>طرق الدفع</h1>
+      <hr class="headig-break">
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="google-icon oringe">
+          <i class="fa-brands fa-cc-visa fa-4x"></i>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="google-pay-icon oringe">
+          <i class="fa-brands fa-cc-paypal fa-4x"></i>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="facebook-icon oringe">
+          <i class="fa-brands fa-apple-pay fa-6x"></i>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="twitter-icon oringe">
+          <i class="fa-brands fa-google-pay fa-6x"></i>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="footer-heading text-center mt-4">
+      <h1>الإدارة الموقع</h1>
+      <hr class="headig-break">
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="../IMG/Untitled-3.png" alt="" width="120px" height="120px">
+      </div>
+    </div>
+    </div>
+  </div>
+  <hr class="headig-break-2">
+  <div class="footer-heading text-center mt-4">
+    <h1>النشره البريديه</h1>
+    <hr class="headig-break">
+  </div>
+    <div class="footer-notification">
+    <form class="needs-vaildation">
+      <div class="container">
+        <div class="input-group email m-auto">
+            <input type="email" class=" form-control" placeholder="ENTER YOUR EMAIL ADRESS" required>
+            <button type="submit" class="btn"><i class="fa-sharp fa-solid fa-envelope fa-2x oringe"></i></button>
+            <div class="invalid-feedback">
+                sorry please ENTER a vaild EMAIL
+              </div>
+        </div>
+      </div>
+    </form>
+    </div>
+    <div class="container-fluid">
+    <section class="footer-copyright">
+      <div class="footer-text text-center pt-2"><img src="../IMG/Untitled-4.png" width="120px" height="120px"> CAMPANY GROUP &COPY;<span id="current_year"></span></div>
+    </div>
+  </div>
+    </footer>
+</body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="../JS/style.js"></script>
+</html>
