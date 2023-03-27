@@ -1,372 +1,369 @@
-<head><script defer src="main.js"></script><link href="style.css" rel="stylesheet"></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\Compilation.js:2016:28
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:7:1)
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:116:11
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\node_modules\webpack\lib\NormalModuleFactory.js:975:5
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع مدرسة علمني الابتدائيه">
+    <script type="text/html"src="{require('index.js')}"></script>
+    <title>الطلاب المتفوقين/علمني</title>
+<script defer src="main.js"></script></head>
+<body>
+        <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar">
+          <i  class="fa-solid fa-bars fa-2x" id="toggler"></i>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../IMG/علمني (2).png" alt="" width="120px" height="120px">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" style="display: none;" >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </a>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" >الصفحه الرئيسه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./school_star.html">نجوم المدرسه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about-us.html">رؤيتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./activety.html">نشاطاتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">تواصل معنا</a>
+                        </li>
+                    </ul>
+                  </div>
+                    <form class="search-icon">
+                      <i onclick="myFunction()" class="fa-solid fa-magnifying-glass ml-4 mr-4"></i></button> 
+                        <button class="btn  my-sm-0 btn-sign-in " type="button" data-toggle="modal" data-target="#exampleModal">تسجيل الدخول</button>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0 ml-2" id="icon">
+                        <input  class="form-control mr-sm-2  search-input" type="search" placeholder="Search" aria-label="Search">
+                        <a href="../HTML/search.html" class="btn  my-2 my-sm-0 search-bar" type="submit" >Search</a>
+                      </form>
+                    <i onclick=" backFunction()" class="fa-solid fa-moon fa-2x ml-4"></i>
+                    <i class="fa-solid fa-sun"></i>
+                
+                </div>
+        </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">تسجيل دخول مستخدم</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email :</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label">Password:</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword-1">
+                </div>
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer justify-content-center">
+            <button type="button" class="btn text-dark sign-in-text" data-toggle="modal" data-target="#exampleModal-2">انشاء حساب</button>
+          <button type="button" class="btn btn-secondary btn-custom-2" data-dismiss="modal">اغلاق</button>
+          <button type="button" class="btn  btn-custom">تسجيل الدخول</button>
+          <button type="button" class="btn text-dark sign-in-text">نسيت كلمت المرور</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">انشاء حساب جديد</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="row">
+              <div class="form-group col-6">
+                <label for="inputEmail-4" class="col-sm-2 col-form-label">First-Name:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail-4">
+                </div>
+              </div>
+              <div class="form-group col-6">
+                <label for="inputEmail-4" class="col-sm-2 col-form-label">Last-Name:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail-4">
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email :</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label">Password:</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword-1">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label d-flex">Password conform:</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword-1">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword-1" class="col-sm-2 col-form-label "> DATE OF BIRTH:</label>
+                <div class="col-sm-10">
+                  <input type="date" id="DateFunction" class="col-12 mt-4" value="2023-3-16">
+                </div>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="col-6">
+                <label for="country">Select a country:</label>
+<select id="country" name="country">
+  <option value="">--Please choose an option--</option>
+  <option value="EGY">EGYPT</option>
+  <option value="KSA">Canada</option>
+  <option value="UAE">Mexico</option>
+</select>
+</div>
+<div class="col-6">
+<label for="city">Select a city:</label>
+<select id="city" name="city" disabled>
+  <option value="">--Please choose a country first--</option>
+</select>
+</div>
+</div>
+          </form>
+          <div class="row mt-4">
+            <button class="text-center m-auto btn-custom">انشاء حساب</button>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-secondary btn-custom-2" data-dismiss="modal">اغلاق</button>
+          <button type="button" class="btn  btn-custom">تسجيل الدخول</button>
+        </div>
+      </div>
+    </div>
+  </div>
   
-  - Compilation.js:2016 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:116 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:116:11
-  
-  - NormalModuleFactory.js:670 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '../style.css' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - Compilation.js:2016 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:116 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:116:11
-  
-  - NormalModuleFactory.js:670 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '../IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - Compilation.js:2016 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:116 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:116:11
-  
-  - NormalModuleFactory.js:670 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '../JS/style.js' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - Compilation.js:2016 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:116 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:116:11
-  
-  - NormalModuleFactory.js:670 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve './IMG/علمني (3).png' in 'C:\Users\OTF25\OneDrive\سطح المكتب\CODES\ALEMNEY-SCHOOL\src\HTML'
-  
-  - Compilation.js:2016 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [ALEMNEY-SCHOOL]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-</pre>
+
+
+<!-- Modal -->
+<div class="modal fade" id="profile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="profile-card">
+                <img src="../IMG/1 (1).png" alt="Profile Picture" class="profile-pic mx-auto d-block mt-4" width="200px" height="20px">
+                <h1 class="text-center profile-name">John Doe</h1>
+                <h2 class="text-center profile-title">Web Developer</h2>
+                <div class="profile-details">
+                  <p><strong>Email:</strong>omar.shan2050@gmail.com</p>
+                  <p><strong>Phone:</strong>(+971)0508359480</p>
+                  <p><strong>Location:</strong> abudhabi</p>
+                  <p><strong>info:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed sapien vel tellus volutpat faucibus a at lacus. Vestibulum porta nulla vel quam faucibus, eu aliquet felis dapibus. Etiam blandit, metus vel finibus suscipit, magna velit feugiat sapien, vel eleifend enim ipsum vitae massa.</p>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-edit-profile">Edit Profile</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="row">
+      <div class="wrap" id="wrap">
+        <div class="sidebar mb-4">
+            <ul class="list-group list-group-flush pl-0 mb-4"> 
+
+
+                <a href="index.html" class="list-group-item">  
+                  <i class="fas fa-fire-alt mr-2 purple"></i> الصفحه الرئيسه 
+                
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-home mr-2 purple"></i> نجوم المدرسة 
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-home mr-2 purple"></i> البحث 
+                </a>
+               
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-share mr-2 purple"></i> نشاطاتنا  
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-film mr-2 purple"></i>  رؤيتنا
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-gamepad mr-2 purple"></i> البحث 
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fas fa-tshirt mr-2 purple"></i>  تسجيل الدخول
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-graduation-cap mr-2 purple"></i>  تغير السطوع
+                </a>
+                <a href="index.html" class="list-group-item">  
+                  <i class="fa fa-cogs mr-2 purple"></i>تحويل اللغة إلى الإنجليزية
+                </a>
+            </ul>
+        </div>
+      </div>
+  </div>
+</header>
+
+    <sction class="last-actives">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="school-actives">
+            <img src="../IMG/5.webp" class="card-img-top" alt="...">
+            <div class="card-block">
+            <div class="card-body">
+              <h5 class="card-title">لأنشطة الخدمية</h5>
+              <p class="card-text">الأنشطة الخدمية: مثل التطوع في العمل الخيري وزيارة دور المسنين والمستشفيات، وتساعد هذه الأنشطة في تعزيز الوعي الاجتماعي والتعاطف مع الآخرين</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="school-actives">
+            <img src="../IMG/6.jpg" class="card-img-top" alt="...">
+            <div class="card-block">
+            <div class="card-body">
+              <h5 class="card-title">النشاطات الاجتماعية</h5>
+              
+              <p class="card-text"> الأنشطة الاجتماعية: مثل الاحتفالات بالأعياد والمناسبات والمسابقات الثقافية والرياضية، وتساعد هذه الأنشطة في تعزيز الانتماء الاجتماعي والتواصل بين الطلاب
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4">
+          <div class="school-actives">
+            <img src="../IMG/5 (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">النشاطات الفنية</h5>
+              <div class="card-block">
+              <p class="card-text"> النشاطات الفنية: مثل الرسم والتصوير والموسيقى والمسرح، وتساعد هذه النشاطات في تعزيز الإبداع والتعبير الفني والتعبير عن الذات
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4">
+          <div class="school-actives">
+            <img src="../IMG/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="card-block">
+              <h5 class="card-title">النشاطات الرياضية</h5>
+              <p class="card-text">النشاطات الرياضية: مثل الركض والتمارين الرياضية والألعاب الجماعية مثل كرة السلة وكرة القدم وغيرها، وتساعد هذه النشاطات في تعزيز اللياقة البدنية وتنمية مهارات التعاون والعمل الجماعي</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <sction class="last-actives">
+            <div class="mandgers-heading text-center pb-2 pt-4">
+                <h1>فيديوهات تعليمه لاكاديمية علمني</h1>
+                <hr class="headig-break">
+              </div>
+              <div class="row card-content m-4">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="card p-1 mb-4">
+                       <div class="card-icon">
+                        <video width="450" controls poster="../IMG/7.jpg">
+                          <source src="../IMG/افضل طريقة لتعليم الجمع للاطفال بالعد على الاصابع.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          <i class="fa-solid fa-play fa-6x"></i>
+                        </video>   
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="card p-1 mb-4">
+                      <div class="card-icon">
+                        <video width="450" controls poster="../IMG/7 (2).jpg">
+                          <source src="../IMG/افضل طريقة لتعليم الجمع للاطفال بالعد على الاصابع.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          <i class="fa-solid fa-play fa-6x"></i>
+                        </video>        
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="card mb-4 p-1">
+                      <div class="card-icon">
+                          <video width="450" controls poster="../IMG/7 (3).jpg">
+                            <source src="../IMG/افضل طريقة لتعليم الجمع للاطفال بالعد على الاصابع.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            <i class="fa-solid fa-play fa-6x"></i>
+                          </video>         
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="card mb-4 p-1">
+                      <div class="card-icon">
+                        <a href="./watch.html">                    
+                          <video width="450" controls poster="../IMG/7 (4).jpg">
+                            <source src="../IMG/افضل طريقة لتعليم الجمع للاطفال بالعد على الاصابع.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            <i class="fa-solid fa-play fa-6x"></i>
+                          </video>                             
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="card mb-4 p-1">
+                      <div class="card-icon">
+                                   <video width="450" controls poster="../IMG/7 (5).jpg">
+                          <source src="../IMG/افضل طريقة لتعليم الجمع للاطفال بالعد على الاصابع.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          <i class="fa-solid fa-play fa-6x"></i>
+                        </video>        
+                          </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="card mb-4 p-1">
+                      <div class="card-icon">
+                        <video width="450" controls poster="../IMG/7 (6).jpg">
+                          <source src="../IMG/افضل طريقة لتعليم الجمع للاطفال بالعد على الاصابع.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          <i class="fa-solid fa-play fa-6x"></i>
+                        </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </sction>
+</body>
+</html>

@@ -8,8 +8,10 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, "/dist"),
+		assetModuleFilename: 'images/[hash][ext][query]',
 		filename: "main.js"
 	},
+	
 	mode: "development",
 	
 	devServer: {
@@ -29,6 +31,7 @@ module.exports = {
 
 	module: {
 		rules: [
+			  
 			{
 				test: /\.html$/,
 				use: [
@@ -40,6 +43,7 @@ module.exports = {
 					},
 				],
 			},
+		
 			{
 
 				test: /\.(png|svg|jpe?g|gif)$/,
@@ -58,6 +62,7 @@ module.exports = {
 					
 
 					}
+					
 		
 				  }
 		
@@ -65,6 +70,7 @@ module.exports = {
 		
 	
 },
+
 {
 
 	test: require.resolve('jquery'),
@@ -78,6 +84,7 @@ module.exports = {
 	}
 
   },
+  
   
   {
 
@@ -102,10 +109,20 @@ module.exports = {
 		  'sass-loader'
 
 		]
-
+    
   },
 ]
+    
 },
+module: {
+    rules: [
+      {
+        test: /\.png/,
+        type: 'asset/resource'
+      }
+    ]
+  },
+
 
 	  
 	plugins: [
