@@ -1,15 +1,24 @@
-
-import '@laylazi/bootstrap-rtl';
-import './style.css'
+import './sass/style.scss'
+import './css/style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
-import '@fortawesome/fontawesome-free/js/all.min';
+import '@fortawesome/fontawesome-free/js/fontawesome'
+import '@fortawesome/fontawesome-free/js/solid'
+import '@fortawesome/fontawesome-free/js/regular'
+import '@fortawesome/fontawesome-free/js/brands'
 
 
 
+$(window).on('load', function () {
 
-$(document).ready(function(){
+  element.addEventListener("click", myFunction);
+  element.addEventListener("click", BTNFunction);
+  element.addEventListener("click", backFunction);
+  element.addEventListener("click", DateFunction);
+
+
 
   $('#toggler').click(function(){
     $('.wrap').toggleClass('toggled');
@@ -19,10 +28,13 @@ $(document).ready(function(){
    $("#current_year").text(CurrentDate.getFullYear());
 
 })
+const btEl= document.querySelector(".night-icon");
 function backFunction() {
   var background = document.body;
   background.classList.toggle("night-mode");
   }
+btEl.addEventListener('click',backFunction);
+
 
   function myFunction() {
     let x = document.getElementById("icon");
@@ -47,7 +59,9 @@ function backFunction() {
     document.getElementById("demo").innerHTML = x;
   }
 
-
+  document.addEventListener("click", function(){
+    
+  })
   const cities = 
   {
     EGY:  ["القاهرة", "الإسكندرية", "البحيرة", "كفر الشيخ", "دمياط", "بورسعيد", "الإسماعيلية", "السويس", "الشرقية", "بني سويف", "المنيا", "أسيوط", "الفيوم", "المنوفية", "الغربية", "الدقهلية", "كفر الدوار", "قنا", "الأقصر", "أسوان", "سوهاج", "الوادي الجديد", "شمال سيناء", "جنوب سيناء", "البحر الأحمر", "مطروح", "الساحل الشمالي"],
@@ -120,22 +134,21 @@ function backFunction() {
       });
       citySelect.disabled = false;
     }
-    var video = document.getElementById("video");
-    var card = document.querySelector(".card");
-  
-    card.addEventListener("click", function() {
-      video.play();
-    });
+
+});
+var video = document.getElementById("video");
+var card = document.querySelector(".card");
+
+card.addEventListener("click", function() {
+  video.play();
+});
 document.querySelector('.sidebar-toggle').addEventListener('click', function() {
-  document.querySelector('.sidebar').classList.toggle('active');
+document.querySelector('.sidebar').classList.toggle('active');
 });
 
 $('#toggler').click(function(){
-  $('.wrap').toggleClass('toggled');
- })
-  });
-
-
+$('.wrap').toggleClass('toggled');
+})
 
 
 
